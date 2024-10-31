@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: white;
+            width:auto;
+            height: auto;
+        }
+        .left{
+            float: left;
+            margin:20px;
+        }
+        .right{
+            float: right;
+            margin:20px;
+        }
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+            margin:10px;
+            width:95%;
+            border:2px solid gray;
+            border-radius: 12px;
+        }
+        img{
+            height:250px;
+            width: 250px;
+        }
+        details{
+            padding:20px;
+        }
+        summary{color:orangered}
+    </style>
+</head>
+<body>
+    <form>
+        <div class="left">
+        <span>All Sessions</span>
+        </div>
+        <div class="right">
+        select date:<input type="date" name="date">
+        <select>
+            <option disabled selected><b>All Dates</b></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+         </div>
+    </form>
+    <div class="box">
+    <details>
+        <summary>Html All Recording Classes</summary>
+        <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg">
+    </details>
+    </div>
+    <div class="box">
+        <details>
+            <summary>CSS All Recording Classes</summary>
+            <img src="https://www.mygreatlearning.com/blog/wp-content/uploads/2020/07/Blog-Info-graphics-1000X700-02.jpg" >
+        </details>
+    </div>
+    <div class="box">
+        <details>
+            <summary>Git And Github Recording Classes</summary>
+            <img src="https://media.licdn.com/dms/image/D4E12AQFJAP4L-KoDzA/article-cover_image-shrink_720_1280/0/1718402483879?e=2147483647&v=beta&t=WgLG6FeaCb_aVB6OENqiVgEtpCuqQm4TJ36d9yfMjTE" >
+        </details>
+    </div>
+    <div class="box">
+        <details>
+            <summary>Javascript All Recording Classes</summary>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_QB5XJx1koTh5nJQudFpJHy5D1HcvniQBJQ&s">
+        </details>
+    </div>
+    <div class="box">
+        <details>
+            <summary>My sql All Recording classes</summary>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmqw952JN0wNx6kXRKQAKMcwduM5Io_Q6YXQ&s">
+        </details>
+    </div>
+    <div class="box">
+        <details>
+            <summary>React Recording classes</summary>
+            <img src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVhY3R8ZW58MHx8MHx8fDA%3D">
+        </details>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(99, 181, 235, 0.729);
+}
+.left{
+    float:left;
+    height:94vh;
+    width:20vw;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.left2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    color:orangered
+}
+button:hover{
+    box-shadow: 10px 10px 10px gray;
+}
+button:active{
+    background-color:white;
+    color:orangered;
+}
+.bug{
+    padding:10px;
+    background-color:orangered;
+    border-radius:12px;
+    color:white;
+}
+.right1{
+    float:right;
+    width:77vw;
+    height:15vh;
+    background-color: white;
+    border-radius: 20px;
+}
+.right2 iframe{
+    float:right;
+    margin-top:10px;
+    width:77vw;
+    height: 77vh;
+    border-radius:20px;
+    border-color:white;
+}
