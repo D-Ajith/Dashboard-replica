@@ -1,0 +1,31 @@
+*{
+    background-color: white;
+    width:auto;
+    height: auto;
+        }
+.box{
+    width:20px;
+    height:10px;
+    padding: 5px;
+    border-radius: 12px;
+    color:white;
+    background-color: orangered;
+}
+.form{
+      display: flex;
+      flex-direction: row;
+      gap:25px;
+}
+table{
+    text-align: center;
+    width: 98%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+td, th{
+    padding: 22px;
+}
+th{
+    background-color: black;
+    color:white;
+}
